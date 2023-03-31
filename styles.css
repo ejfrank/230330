@@ -1,0 +1,109 @@
+/* Reset defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Page defaults */
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 25% 100%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  body {
+    background: linear-gradient(270deg, black, darkred, black);
+    background-size: 200% 200%;
+    animation: gradient-animation 45s ease infinite;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-size: medium;
+    color:black;
+    padding: auto;
+    margin: 10px;
+  }
+body {
+    
+   /* border: 2px;
+    border-style: ridge;
+    border-color: crimson; */
+}
+div {
+    margin: 10px;
+    padding: 10px;
+    border: 2px;
+    border-style:ridge;
+    border-color: rgb(119, 119, 127);
+    background-color: darkgray;
+}
+p {
+    padding: 10px;
+}
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: red 2px 3px;
+} 
+h2, h3, h4, h5 {
+    padding: 5px;
+    text-shadow: 1px, crimson;
+}
+a {
+    color: blue
+}
+div.navbar {
+    background-color: black;
+}
+.edgyButton {
+    margin-inline: 10px;
+    padding: 4px;
+    border: 4px;
+    border-style: ridge;
+    border-color:darkgray;
+    background-color: darkgray;
+}
+.edgyButton:hover {
+    border-top-color: black;
+    border-left-color: black;
+    background-color: black;
+    border-bottom-color: red;
+    border-right-color: red;
+}
+
+div.outro{
+    background-image: "./flames.gif";
+    background-size: contain;
+    background-color: black;
+    text-decoration: underline;
+    color:red;
+}
+div.outro:hover {
+    text-shadow: 2px;
+    text-decoration-color: orangered;
+    text-shadow: red 2px 2px;
+}
+a:hover {
+    color: crimson;
+}
+footer a {
+    color:darkorchid;
+    font-weight: bold;
+    justify-content: center;
+}
+footer {
+    padding: 5px;
+    justify-content: center;
+    margin: 10px;
+    border: 2px;
+    border-style:dotted;
+    border-color: crimson;
+    background-color: antiquewhite;
+}
+.hidden {
+    display: none;
+}
